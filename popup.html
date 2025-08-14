@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Repeated Google Searcher</title>
+  <style>
+    body { font-family: sans-serif; padding: 10px; width: 300px; }
+    input, button { width: 100%; box-sizing: border-box; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Repeated Google Searcher</h2>
+  <label for="searchPhrase">Search Phrase:</label>
+  <input type="text" id="searchPhrase" placeholder="Enter your search phrase">
+  <label for="interval">Interval (seconds):</label>
+  <input type="number" id="interval" value="5" min="5">
+  <button id="startStopButton">Start</button>
+  <p id="status"></p>
+  <script src="popup.js"></script>
+</body>
+</html>
